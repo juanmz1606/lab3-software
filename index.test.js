@@ -1,6 +1,5 @@
-// index.test.js
 const request = require('supertest');
-const app = require('./index'); // Importa la API
+const app = require('./index');  // Importa solo el 'app', no el servidor
 
 describe('GET /', () => {
   it('responds with Hello, world!', async () => {
